@@ -1,0 +1,95 @@
+
+
+.card{
+    margin: 20px 0;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px 1px #79B525;
+    
+}
+
+.card:hover{
+transform: scale(1.1);
+}
+.img_character{
+    display: inline-block;
+    width: 248px;
+    height: 250px;  
+    object-fit: contain;
+    border-radius: 10px 10px 0 0 ;
+    
+}
+
+figure{
+    position: relative;
+}
+
+figcaption{
+    color: white;
+    font-size: 10px;
+    width: 80px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 50px;
+    left: 0px;
+    gap: 10px;
+    padding: 5px;
+    background-color: #072226;
+    border-radius: 0px 5px 5px 0;
+}
+
+.circle{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(90, 88, 88);
+    border-radius: 50%;
+}
+
+.Alive{
+    background-color: green;
+}
+.Dead{
+    background-color: red;
+}
+
+.content_list{
+background-color: #072226;
+margin-top: 0;
+
+}
+
+.content_list ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 10px 0;
+
+}
+
+li{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    margin-left: 15px;
+    padding: 5px;
+    color: white;
+    
+}
+.h2_name{
+    padding: 10px 10px;
+    color: white;
+}
+
+.div_location h2{
+color: #79B525;
+font-size: 28px;
+}
+.categoria{
+    color: rgb(136, 131, 131);
+}

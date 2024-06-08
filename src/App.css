@@ -1,0 +1,82 @@
+*,
+* ::before,
+* ::after{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+.loading{
+    padding: 20px;
+    color: #71A821;
+    font-size: 50px;
+}
+
+body{
+    background-color: #05292E;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #05292E;
+}
+
+.img_banner{
+    min-width: 200px;
+    object-fit: contain;
+    
+}
+
+.img_letras{
+    min-height: 100px;
+    max-width: 250px;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+
+}
+.form_boton{
+    margin-top: 30px;
+}
+
+button{
+    cursor: pointer;
+    background-color: #71A821;
+    color: white;
+    font-weight: 500;
+    padding: 13px;
+    border: none;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 2px 2px 5px 2px black;
+}
+input{
+    cursor: text;
+    padding: 13px;
+    border: none;
+    border-radius: 15px 0 0 15px;
+    box-shadow: 2px 2px 5px 2px black;
+}
+
+hr{
+    height: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+
+.cartas{
+    max-width: 1100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+    
+}
