@@ -39,7 +39,7 @@ body{
     align-items: center;
     width: 300px;
     height: 200px;
-    background-image: url("./Img/banner2.png"); 
+    background-image: url("../Img/banner2.png"); 
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -51,7 +51,7 @@ body{
 
 .div_banner{
     width: 100vw;
-    background-image: url("./Img/banner2.png"); 
+    background-image: url("../Img/banner2.png"); 
     background-repeat: no-repeat;
     background-size: cover;
     }
