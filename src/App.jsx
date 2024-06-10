@@ -35,7 +35,7 @@ const handleTextInput=(event)=>{
   return (
     <div className='app'>
       <div className='div_banner'>
-      <img className='img_banner' src=".\Img\banner2.png" alt="" />
+      {/* <img className='img_banner' src=".\Img\banner2.png" alt="" /> */}
       {/* <img className='img_letras' src="src\assets\Img\letras.png" alt="" /> */}
       </div>
       {
