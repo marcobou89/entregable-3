@@ -27,9 +27,14 @@ body{
 }
 
 .img_banner{
-    min-width: 200px;
-    object-fit: contain;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     
+}
+
+.div_banner{
+    min-width: 200px;
 }
 
 .img_letras{
